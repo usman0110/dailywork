@@ -1,0 +1,9 @@
+yarn init
+yarn add -D typescript ts-node-dev
+tsc --init
+outdir = dist
+rootdir = src
+enable moduleresolution
+add "scripts" ["start": "node dist/app.js" , "dev": "ts-node-dev src/app.ts" , "build": "tsc"]
+src folder for ts
+dist folder for compiling

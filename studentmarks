@@ -1,0 +1,10 @@
+const input = process.argv;
+const Marks =
+  Number(input[3]) +
+  Number(input[4]) +
+  Number(input[5]) +
+  Number(input[6]) +
+  Number(input[7]);
+
+const Average = (Marks / (Number(input[2]) * 5)) * 100;
+console.log("Average Marks: " + Average + "%");
